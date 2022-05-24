@@ -8,6 +8,11 @@ class Node{
     Node *right;
 
 //    public:
+
+    Node()
+    {
+        
+    }
     Node(int v)
     {
         this->val=v;
@@ -15,6 +20,8 @@ class Node{
         right=NULL;
 
     }
+
+    Node* createDummyTree();
 };
 
 #endif
